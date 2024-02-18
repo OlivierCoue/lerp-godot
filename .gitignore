@@ -1,0 +1,7 @@
+gdextension/debug/*
+!gdextension/debug/.gitkeep
+gdextension/release/*
+!gdextension/release/.gitkeep
+
+godot/.godot
+godot/export/
