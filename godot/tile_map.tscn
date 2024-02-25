@@ -1,9 +1,9 @@
 [gd_scene load_steps=4 format=3 uid="uid://damhif8xwmp6g"]
 
-[ext_resource type="Texture2D" uid="uid://dxneltfnfrvsu" path="res://sprite/atlas.png" id="2_ci56u"]
+[ext_resource type="Texture2D" uid="uid://sgrcxuu3go4q" path="res://sprite/atlas_big.png" id="1_fme71"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lc76q"]
-texture = ExtResource("2_ci56u")
+texture = ExtResource("1_fme71")
 texture_region_size = Vector2i(256, 256)
 0:0/0 = 0
 1:0/0 = 0
@@ -15,6 +15,9 @@ texture_region_size = Vector2i(256, 256)
 2:1/0 = 0
 3:1/0 = 0
 0:2/0 = 0
+1:2/0 = 0
+4:0/size_in_atlas = Vector2i(4, 5)
+4:0/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_lq4vl"]
 tile_shape = 1
@@ -27,7 +30,7 @@ show_behind_parent = true
 z_index = 1
 y_sort_enabled = true
 texture_filter = 1
-position = Vector2(-30, -99)
+position = Vector2(-29, -99)
 tile_set = SubResource("TileSet_lq4vl")
 rendering_quadrant_size = 32
 format = 2
@@ -37,6 +40,7 @@ layer_1/name = "L1"
 layer_1/y_sort_enabled = true
 layer_1/z_index = 1
 layer_1/tile_data = PackedInt32Array()
+layer_2/name = "L2"
 layer_2/y_sort_enabled = true
 layer_2/z_index = 2
 layer_2/tile_data = PackedInt32Array()
